@@ -13,3 +13,11 @@ from buyTbl B
 	join userTbl U	--join 역할 : 
 	on B.userID = U.userID	--둘이 같은 것을 Join하라
 where B.userID = 'BBK';
+
+
+-------------------210602----------------------
+select addr from userTbl where name = '조용필'
+
+create index idx_name on userTbl(name);
+
+select addr from userTbl with(index(idx_name)) where name='조용필'	--빨리 찾아질 "가능성"이 생김
