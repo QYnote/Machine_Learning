@@ -1,0 +1,15 @@
+C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Cs\Oracle01\bin\Debug\netcoreapp3.1\Oracle01.exe
+C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Cs\Oracle01\bin\Debug\netcoreapp3.1\Oracle01.deps.json
+C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Cs\Oracle01\bin\Debug\netcoreapp3.1\Oracle01.runtimeconfig.json
+C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Cs\Oracle01\bin\Debug\netcoreapp3.1\Oracle01.runtimeconfig.dev.json
+C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Cs\Oracle01\bin\Debug\netcoreapp3.1\Oracle01.dll
+C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Cs\Oracle01\bin\Debug\netcoreapp3.1\Oracle01.pdb
+C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Cs\Oracle01\bin\Debug\netcoreapp3.1\Oracle.ManagedDataAccess.dll
+C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Cs\Oracle01\obj\Debug\netcoreapp3.1\Oracle01.csprojAssemblyReference.cache
+C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Cs\Oracle01\obj\Debug\netcoreapp3.1\Oracle01.AssemblyInfoInputs.cache
+C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Cs\Oracle01\obj\Debug\netcoreapp3.1\Oracle01.AssemblyInfo.cs
+C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Cs\Oracle01\obj\Debug\netcoreapp3.1\Oracle01.csproj.CoreCompileInputs.cache
+C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Cs\Oracle01\obj\Debug\netcoreapp3.1\Oracle01.csproj.CopyComplete
+C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Cs\Oracle01\obj\Debug\netcoreapp3.1\Oracle01.dll
+C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Cs\Oracle01\obj\Debug\netcoreapp3.1\Oracle01.pdb
+C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Cs\Oracle01\obj\Debug\netcoreapp3.1\Oracle01.genruntimeconfig.cache

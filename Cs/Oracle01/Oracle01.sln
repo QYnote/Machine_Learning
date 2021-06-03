@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oracle01", "Oracle01.csproj", "{F88A72E2-72AC-476A-8F3E-3AC328F9BADD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F88A72E2-72AC-476A-8F3E-3AC328F9BADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88A72E2-72AC-476A-8F3E-3AC328F9BADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88A72E2-72AC-476A-8F3E-3AC328F9BADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88A72E2-72AC-476A-8F3E-3AC328F9BADD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A945D4D0-EB19-4F29-BC9F-EE14DC30888C}
+	EndGlobalSection
+EndGlobal
