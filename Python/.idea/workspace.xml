@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2524dfa8-04a1-48bb-9f86-fc90d6cd5efc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MNIST Leraning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0618 Mission01-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0618 Mission01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/balance-scale.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning AI Call.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning AI Call.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai_wineWhite_46_KNN.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai_wineWhite_48_KNN.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai_wineWhite_49_KNN.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai_wineWhite_54_SVM.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai_wineWhite_56_SVM.dmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai_wineWhite_57_SVM.dmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNIST Leraning.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST Leraning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_mnist_1k_knn_85.dmp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +42,8 @@
       <recent name="C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Python\venv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Machine Learning AI Call">
-    <configuration name="Iris Project" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.0618 Mission01-2">
+    <configuration name="0618 Mission01-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,7 +55,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Iris Project.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0618 Mission01-2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="0618 Mission01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0618 Mission01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,27 +148,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ai_iris_call" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai_iris_call.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.0618 Mission01-2" />
+        <item itemvalue="Python.0618 Mission01" />
         <item itemvalue="Python.Machine Learning AI Call" />
         <item itemvalue="Python.MNIST Leraning" />
         <item itemvalue="Python.Machine Learning Project" />
-        <item itemvalue="Python.ai_iris_call" />
-        <item itemvalue="Python.Iris Project" />
       </list>
     </recent_temporary>
   </component>
