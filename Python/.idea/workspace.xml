@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2524dfa8-04a1-48bb-9f86-fc90d6cd5efc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MobileNetSSD_deploy.caffemodel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MobileNetSSD_deploy.prototxt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepLearning_정지영상(SSD).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,7 @@
       <recent name="C:\Users\kccistc\Desktop\Shim\ProjectCollection\MES_Project\MachineLearning\Machine_Learning\Python\venv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.0621_동영상처리">
+  <component name="RunManager" selected="Python.DeepLearning_정지영상(SSD)">
     <configuration name="0618 Mission01-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MNIST Leraning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="DeepLearning_정지영상(SSD)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,7 +114,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MNIST Leraning.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning_정지영상(SSD).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DeepLearning_정지영상(SSD)" />
         <item itemvalue="Python.0621_동영상처리" />
         <item itemvalue="Python.0618 Mission01-2" />
         <item itemvalue="Python.0618 Mission01" />
         <item itemvalue="Python.Machine Learning AI Call" />
-        <item itemvalue="Python.MNIST Leraning" />
       </list>
     </recent_temporary>
   </component>
