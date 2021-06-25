@@ -88,7 +88,7 @@ def videoStart() :
 # window
 window = Tk()
 window.title("TargetCount Program")   # 제목
-window.geometry('700x600')
+window.geometry('700x450')
 window.resizable(width=False, height=False)
 
 # 버튼할당
