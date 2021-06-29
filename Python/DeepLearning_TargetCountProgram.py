@@ -1,4 +1,5 @@
 from tkinter.filedialog import  * # 파일 대화상자, GUI
+from tkinter.ttk import Combobox
 import cv2
 import numpy as np
 
@@ -32,14 +33,10 @@ def videoStart() :
             image = frame
 
             # AI 사용 준비물
-            target = "person"  # 사람에 대한 추출
+            target = str(combobox.get()) #List 박스에서 선택한 대상 추출
             args = {'image': frame, 'prototxt': "MobileNetSSD_deploy.prototxt.txt",
                     'model': "MobileNetSSD_deploy.caffemodel", 'confidence': CONF_VALUE}
-            CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
-                       "bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
-                       "dog", "horse", "motorbike", "person", "pottedplant", "sheep",
-                       "sofa", "train", "tvmonitor"]
-            COLORS = np.random.uniform(0, 255, size=(len(CLASSES), 3))  # 각 R,G,B 칼라 추출
+            COLORS = np.random.uniform(0, 255, size=(len(TargetList), 3))  # 각 R,G,B 칼라 추출
 
             # Pre-Train Data 로딩 --> 인공지능
             aiModel = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
@@ -58,11 +55,11 @@ def videoStart() :
                     idx = int(detections[0, 0, i, 1])  # CLASSES중 어떤 사물인지 위치
                     box = detections[0, 0, i, 3:7] * np.array(([w, h, w, h]))  # 이미지에 표시할 사각형 추출
                     (startX, startY, endX, endY) = box.astype("int")  # 사각형의 실제 왼쪽위, 오른쪽 아래 좌표
-                    if CLASSES[idx] == target.strip():
+                    if TargetList[idx] == target.strip():
                         count += 1
 
                     # 화면에 표시
-                    label = "{}: {:.2f}%".format(CLASSES[idx], confidence * 100)
+                    label = "{}: {:.2f}%".format(TargetList[idx], confidence * 100)
                     cv2.rectangle(image, (startX, startY), (endX, endY), COLORS[idx], 2)
                     y = startY - 15 if startY - 15 > 15 else startY + 15
                     cv2.putText(image, label, (startX, y),
@@ -99,17 +96,23 @@ BTN_fileSelect.pack()
 BTN_start.pack()
 
 # 검색할 사물 선택
-listbox = Listbox(window, selectmode='extended', height=0)
-listbox.insert(0, "person")
-#["background", "aeroplane", "bicycle", "bird", "boat",
-# "bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
-# "dog", "horse", "motorbike", "person", "pottedplant", "sheep",
-# "sofa", "train", "tvmonitor"]
+TargetList = ["background", "aeroplane", "bicycle", "bird", "boat",
+ "bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
+ "dog", "horse", "motorbike", "person", "pottedplant", "sheep",
+ "sofa", "train", "tvmonitor"]
+
+# 타겟 선택 박스
+combobox = Combobox(window,height=15, values=TargetList, postcommand="")
+combobox.pack()
+combobox.set("타겟 선택")   # 초기 텍스트 변경
 
 # 상태 Label
 label_status = Label(window, text = "파일을 선택해 주세요.")
 labelPhoto_highCount = Label(window)
 label_status.pack()
 labelPhoto_highCount.pack()
+
+# GUI 배치
+
 
 window.mainloop()
