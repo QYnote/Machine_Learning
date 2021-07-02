@@ -1,5 +1,6 @@
-from tkinter.filedialog import  * # 파일 대화상자, GUI
-from tkinter.ttk import Combobox
+from tkinter import *  # GUI
+from tkinter.filedialog import askopenfilename # 파일 대화상자
+from tkinter.ttk import Combobox 
 import cv2
 import numpy as np
 
