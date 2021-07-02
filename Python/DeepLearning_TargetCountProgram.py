@@ -1,18 +1,24 @@
 from tkinter import *  # GUI
-from tkinter.filedialog import askopenfilename # 파일 대화상자
+from tkinter.filedialog import * # 파일 대화상자 / askopenfilename,
 from tkinter.ttk import Combobox 
 import cv2
+import os
 import numpy as np
 
 def snapshot(f) :   # 캡쳐된 파일 저장
-    cv2.imwrite('C:/img/video/capture' + '/maxPerson.png', f )
-    
+    cv2.imwrite(saveFolderAdd + '/maxPerson.png', f )
+
 def fileSelect() :  # 검색할 영상 선택
     global fileName
 
     fileName = askopenfilename(parent=window,
                                filetypes=(('Video File', '*.mp4;*.avi; *.mov; *.wmv'), ('All File', '*.*')))
     label_status.config(text="'시작' 버튼을 눌러주세요")
+
+def saveAdd():
+    global saveFolderAdd
+    saveFolderAdd = askdirectory()
+
 
 def videoStart() :
     global highCount
@@ -67,13 +73,15 @@ def videoStart() :
                                 cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
             frame = image
             cv2.imshow('Video', frame)
+            
             # 센 갯수가 최대라면 화면을 캡처
             if count > maxCount:
                 maxCount = count
                 snapshot(image)
                 # 시작버튼 하단에 카운트가 가장 높은 장면 출력
-                highCount = PhotoImage(file="C:/img/video/capture/maxPerson.png")
+                highCount = PhotoImage(file=saveFolderAdd + "/maxPerson.png")
                 labelPhoto_highCount.config(image=highCount)
+
 
             # ESC 입력시 중단
             c = cv2.waitKey(1)
@@ -83,17 +91,22 @@ def videoStart() :
     cv2.destroyWindow('Video')
     label_status.config(text="완료되었습니다.")
 
+
 # window
 window = Tk()
 window.title("TargetCount Program")   # 제목
 window.geometry('700x450')
 window.resizable(width=False, height=False)
 
+saveFolderAdd = "C:/Temp"
+
 # 버튼할당
 BTN_fileSelect = Button(window, text="영상 선택", command=fileSelect)
+BTN_saveAddSelect = Button(window, text="저장 경로", command=saveAdd)
 BTN_start = Button(window, text="시작", command=videoStart)
 
 BTN_fileSelect.pack()
+BTN_saveAddSelect.pack()
 BTN_start.pack()
 
 # 검색할 사물 선택
